@@ -1,0 +1,27 @@
+.leftbar {
+  /* width:0; */
+  float:left;
+  /* position:relative; */
+  margin-top:4rem;
+  z-index: -1;
+}
+.table {
+  margin-top:4rem;
+  float:left;  
+  z-index:-2;
+}
+.add {
+  width:20rem;
+}
+
+@keyframes tohide
+{
+  0%   {left:0px; top:0px;}
+  100%  {left:-250px; top:0px;}
+}
+
+@keyframes toleft
+{
+  0%  {width:250;}
+  100% {width:0;}
+}

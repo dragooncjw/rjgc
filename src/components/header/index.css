@@ -1,0 +1,29 @@
+.navbar {
+  background-color:#2e3e4e;
+  /* background-color:black; */
+  color:#9db1c5;
+  width:100%;
+  line-height:4rem;
+  height:4rem;
+  position:fixed;
+  z-index:99;
+}
+.title {
+  color:#777777;
+  display: inline;
+  margin-left:1rem;
+  font-size:1.3rem;
+}
+.title:hover {
+  color:#ffffff;
+  cursor:pointer;
+}
+.userinfo {
+  height:4rem;
+  width:8rem;
+  /* display: inline; */
+  float:right;
+}
+.userinfo:hover {
+  cursor:pointer;
+}

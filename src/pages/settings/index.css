@@ -1,0 +1,13 @@
+.leftbar {
+  /* width:0; */
+  float:left;
+  /* position:relative; */
+  margin-top:4rem;
+  z-index: -1;
+}
+
+.table {
+  margin-top:4rem;
+  float:left;  
+  z-index:-2;
+}
